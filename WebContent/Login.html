@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
 <title>Login Page</title>
+<link type="text/css" rel="Stylesheet" href="Style.css"/>
 </head>
+
+
 <body>
 <h1>Welcome!</h1>
-<form>
+	
+
+<form action="ProcessForm" method="post">
+
 Username/Email:<br>
- <input type="text" name="firstname">
+ <input type="text" name="username">
  <br>
  Password:<br>
- <input type="password" name="Password" maxlength="25"> <br>
+ <input type="password" name="password" maxlength="15"> <br>
  <br>
  <input type="submit" value="Submit" id="submit"/>
- 
-</form>
-
+ </form>
 </body>
 </html>
